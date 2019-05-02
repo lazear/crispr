@@ -64,7 +64,7 @@ pub struct Entry<'a> {
 }
 
 impl Genome {
-    /// Build a reference genome from a Fasta file
+    /// Build a reference genome from a Fasta file of assembled cDNA sequences
     pub fn open<P: AsRef<Path>>(path: P) -> io::Result<Genome> {
         let mut buf = String::new();
         File::open(path)?.read_to_string(&mut buf)?;
