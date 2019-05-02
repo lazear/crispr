@@ -2,6 +2,8 @@
 
 ![Crates.io](https://img.shields.io/crates/v/crispr.svg)
 
+[![Build Status](https://travis-ci.com/lazear/crispr.svg?branch=master)](https://travis-ci.com/lazear/crispr)
+
 Rust library for designing sgRNAs for genome engineering using CRISPR/Cas9
 
 You'll want to download a local copy of of the latest Human reference genome (either full chromosome assembly, or cDNA assembly), which can be obtained from [NCBI](https://www.ncbi.nlm.nih.gov/assembly/?term=GRCh38) or [Ensembl](https://uswest.ensembl.org/Homo_sapiens/Info/Index). At this time, the latest assembly is GRCh38
