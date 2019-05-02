@@ -1,0 +1,12 @@
+[package]
+name = "crispr"
+version = "0.1.0"
+authors = ["Michael Lazear <lazear@scripps.edu>"]
+edition = "2018"
+license = "MIT"
+description = "Rust library for designing sgRNAs for genome engineering using CRISPR/Cas9"
+repository = "https://github.com/lazear/crispr.git"
+homepage = "https://github.com/lazear/crispr"
+
+[dependencies]
+memchr = "2.2"
